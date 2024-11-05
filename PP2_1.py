@@ -1,10 +1,10 @@
 
 
-def q1(): 
+def q1(3): 
   #Write Assignment code here
 
 
-def q2(): 
+def q2(9): 
   #Write Assignment code here
 
 
