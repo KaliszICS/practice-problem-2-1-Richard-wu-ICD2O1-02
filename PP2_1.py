@@ -16,8 +16,6 @@ if num < 10:
 def q2(): 
   #Write Assignment code here
 
-  num = int(input("Input an integer: "))
-
 #if <condition>:
 if num > 10:
     #Code that runs when the if statement is true is indent in once
