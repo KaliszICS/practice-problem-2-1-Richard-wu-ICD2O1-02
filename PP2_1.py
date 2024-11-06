@@ -1,27 +1,17 @@
-
-
 def q1(): 
   #Write Assignment code here
-
-  num = int(input("Input an integer: "))
-
-#if <condition>:
-if num < 10:
-    #Code that runs when the if statement is true is indent in once
-    #This code is skipped when the condition is false
-    print("The number you provided was less than 10")
-    num = num + 9
-
-
+  num = int(input("In: "))
+  if num % 2 == 0:
+    print(f"{num} is even")
+  if num % 2 != 0:
+    print(f"{num} is odd")
 def q2(): 
   #Write Assignment code here
-
-#if <condition>:
-if num > 10:
-    #Code that runs when the if statement is true is indent in once
-    #This code is skipped when the condition is false
-    print("The number you provided was greater than 10")
-    num = num - 9
+  name = input("In: ")
+  if name == "Kalisz":
+    print("teacher")
+  if name != "Kalisz":
+    print("student")
 
 
 
